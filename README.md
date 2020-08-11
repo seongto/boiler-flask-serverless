@@ -3,6 +3,7 @@
 ## clone 후 만들어야 할 것들
 
 - configs 폴더를 생성한 후 config.js 와 test_config.py 를 생성한다.
+  
   config.js : 프로덕션 혹은 개발 서버를 배포할 때 서버리스 환경 변수(DB정보 등) 전달을 위한 파일. 아래는 샘플코드
   ```
   const dev_db = {
@@ -35,6 +36,7 @@
       }
   });
   ```
+  
   test_config.py : 로컬 테스트 용 로컬 디비 경로 전달용 파일. 아래는 샘플코드
   ```
   local_test_db = {
